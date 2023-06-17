@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yassine Elidrissi</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="images" href="images/d.png">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Elidrissi</a>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div>
+            <h2>Hello, I'm Deekue | Yassine <br><span>Front-End Developer</span></h2>
+            
+            <a href="#about" class="main-btn">For More</a>
+            <div class="icons">
+                <a href="https://www.facebook.com/0xDiav" class="link" target="_blank">
+                    <i class='bx bxl-facebook-circle' ></i>
+                </a>
+                <a href='https://twitter.com/Dee4kue'class="link" target="_blank">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="https://github.com/Dee4kue" class="link" target="_blank">
+                    <i class='bx bxl-github' ></i>
+                </a>
+                <a href="https://www.linkedin.com/in/el-idrissi-059b59241/" class="link" target="_blank">
+                    <i class='bx bxl-linkedin' ></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h2 class="title">AboutMe</h2>
+            <div class="image">
+                <img src="images/card.jpg" class="profile-image">
+                <div class="text-data">
+                    <p class="job1">Hello World 👋! I'm Yassine Elidrissi Aka Dee4kue. <br> Software Enginner Student. I've been an enthusiast of programming my whole life. <br> programming is like a game . I'm interested in web dev, mobile dev, and also desktop dev. <br>I'm looking forward to learning more about being a full-stack developer! 😃 You can find me on GitHub and LinkedIn.</p>
+        </div>
+    </section>
+    <section class="cards" id="contact">
+        <h2 class="title">ContactMe</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                   <i class='bx bxs-phone'></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+212617399287</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                   <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>rofixyt8@gmail.com</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer-titre">Coyrights @ <span>Elidrissi Yassine</span></p>
+        <div class="icons-footer">
+            <a href="https://www.facebook.com/0xDiav" class="link" target="_blank">
+                <i class='bx bxl-facebook-circle' ></i>
+            </a>
+            <a href='https://twitter.com/Dee4kue'class="link" target="_blank">
+                <i class='bx bxl-twitter' ></i>
+            </a>
+            <a href="https://github.com/Dee4kue" class="link" target="_blank">
+                <i class='bx bxl-github' ></i>
+            </a>
+            <a href="https://www.linkedin.com/in/el-idrissi-059b59241/" class="link" target="_blank">
+                <i class='bx bxl-linkedin' ></i>
+            </a>
+    </footer>
+</body>
+<style>
+    
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@200;300;400;500;600;700&display=swap');
+
+    *{
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    header{
+        background-color: black;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 200px;
+    }
+    .logo{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #213363;
+        font-size: 1.5em;
+    }
+    .nav a{
+        text-decoration: none;
+        color: #2B2A4C;
+        font-size: 1.1em;
+        font-weight: 500;
+        padding-left: 30px;
+    }
+    .nav a:hover{
+        color: blanchedalmond;
+    }    
+    section{
+        padding: 100px 200px;
+    }
+    .main{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background-image: url(images/frontend.jpg);
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .main h2{
+        
+        font-size: 1.4em;
+        font-weight: 500;
+    }
+    .main h2 span{
+        
+        display: inline-block;
+        color: #2B2A4C;
+        font-size: 1.7em;
+        font-weight: 600;
+    }
+    .main-btn{
+        background-color: #EA906C;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 500;
+        display: inline-block;
+        padding: 0.9em 2.1875em;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        transition: 0.7s ease;
+    }
+    .main-btn:hover{
+        background-color: #0a49f6;
+        transform: scale(1.1);
+    }
+    .icons a{
+        padding-right: 10px;
+    }
+    .image{
+            height: 332px;
+            width: 322px;
+            border-radius: 30px;
+            padding: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+            justify-self: center;
+        }
+        .image .profile-image{
+            height: 81px;
+            width: 84px;
+            object-fit: cover;
+            border-radius: 350px;
+            padding: 3px;
+            background-color: darkgreen;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+        }
+        .text-data .job1{
+            margin: 10px;
+            width: 226px;
+            font-family: Poppins;
+            font-size: 11px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+        }
+        .profile .text-data{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            font-family: sans-serif;
+            justify-self: center;
+        }
+        .title{
+            display: flex;
+            justify-content: center;
+            color: #2B2A4C;
+            font-size: 2.2em;
+            font-weight: 800;
+            
+        }
+        
+        .content{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+        .cards{
+            background-color: blue;
+            
+        }
+        .card{
+            background-color: #fff;
+            width: 21.25em;
+            box-shadow: 0 5px 25px rgba(1 1 1 / 15);
+            border-radius: 10px;
+            padding: 25px ;
+            margin: 15px;
+
+        }
+        .card a:hover{
+            transform: scale(1.1);
+
+        }
+        .icon{
+            color: #11009E;
+            font-size: 8em;
+            text-align: center;
+        }
+        .info h3{
+            font-size: 1.2em;
+            font-weight: 700;
+            margin: 10px;
+        }
+        .info{
+            text-align: center;
+        }
+        .footer{
+            background-color: rgb(124, 117, 117);
+            color: #fff;
+            padding: 2em;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer-titre{
+            font-size: 1.3em;
+            font-weight: 200;
+
+        }
+        .footer-titre{
+            color: #2B2A4C;
+        }
+        .footer .icons-footer a{
+            font-size: 1.2em;
+        }
+        @media (max-width:1023px){
+            header{
+                padding: 12px 20px;
+            }
+            .nav a{
+                padding-left: 10px;
+            }
+            .title{
+                font-size: 1.8em;
+            }
+            section{
+              padding: 80px 20px;  
+            }
+            .main h2{
+                font-size: 1em;
+            }
+            .main h3{
+                font-size: 1.6em;
+            }
+            .content{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        @media (max-width:643px){
+            body{
+                font-size: 12px;
+            }
+            .main h2{
+                font-size: 0.8em;
+            }
+            .main h2{
+                font-size: 1.4em;
+            }
+        }
+        @media (max-width:300px){
+            body{
+                font-size: 10px;
+            }
+        }
+</style>
+</html>
